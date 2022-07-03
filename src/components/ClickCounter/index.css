@@ -1,0 +1,61 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.body {
+  margin: 0px;
+}
+.counter-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f1f5f8;
+  padding: 20px;
+}
+.counter-heading {
+  color: #2d3a35;
+  font-family: Roboto;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .counter-heading {
+    font-size: 50px;
+  }
+}
+
+.span {
+  color: #c20a72;
+}
+.description {
+  color: #2d3a35;
+  font-family: Roboto;
+  font-size: 16px;
+  text-align: center;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Roboto;
+  border-radius: 5px;
+  border-width: 0px;
+  padding: 8px;
+}
+
+@media (min-width: 768px) {
+  .counter-container {
+    padding-top: 50px;
+  }
+  .description {
+    font-size: 20px;
+  }
+}
